@@ -3,13 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>CareerConnect</title>
+    <title>Unity Web Player | CareerDashAlpha</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
   </head>
   <body>
     <div id="unity-container">
@@ -23,9 +20,6 @@
       <div id="unity-warning"> </div>
     </div>
     <script>
-      if (window.indexedDB != null) window.indexedDB.deleteDatabase("/idbfs");
-
-
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
           navigator.serviceWorker.register("ServiceWorker.js");
