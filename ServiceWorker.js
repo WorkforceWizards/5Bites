@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-CareerDashAlpha-1.0.2";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/CareerDash.loader.js",
+    "Build/CareerDash.framework.js",
+    "Build/CareerDash.data",
+    "Build/CareerDash.wasm",
     "TemplateData/style.css"
 
 ];
